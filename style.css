@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #ed7979;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+ul, li, a {
+    list-style: none;
+    display: flex;
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+.menu-bar-icon {
+    height: 30px;
+    order: 1;
+}
